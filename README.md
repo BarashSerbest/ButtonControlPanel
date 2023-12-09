@@ -30,7 +30,9 @@ GraphQL Nasıl Kullanılır?
 
  GraphQL, bir şema (schema) ile çalışır. Şema, sunucunun ne tür verileri sunabileceğini ve istemcinin hangi sorguları yapabileceğini tanımlar. İstemci, bu şemaya uygun sorguları kullanarak veri talep eder.
 Örneğin, bir sipariş için ürün bilgilerini yönetebileceğimiz GraphQL “istek – yanıt” sorgusu: 
+
 Sipariş için ürün bilgisi isteği sorgusu: 
+
 {
   siparisler {
     id
@@ -45,6 +47,7 @@ Sipariş için ürün bilgisi isteği sorgusu:
   }
 }
 Bu siparişteki ürün bilgisi isteği sorgusu için geri dönüş yapacak “yanıt” sorgusu:
+
 {
   "veri": {
     "siparisler": [
