@@ -3,6 +3,7 @@
 Buton kontrol paneli uygulaması nasıl kullanılacak? 
 
  GitHub'ta yer alan dosyaları indiriniz ve tek bir dosya içerisine atınız, sonrasında projenin main dosyasının yer aldığı "src/main/java/com/mycompany/barash_serbest_5220505051" dosyasının içerisine giriniz. Burada form uygulamasını çalıştırabilmek için ve diğer sınıf kodlarını inceleyebilmek için ".java" uzantılı üç dosyayı "NetBeans" veya eşdeğeri nitelikte java ile çalışabileceğiniz bir IDE (Intellij IDEA veya Eclipse) ile açınız. Sonrasında kullandığınız IDE ile main dosyası olan "Barash_Serbest_5220505051.java" dosyasını kullanarak programı derleyip çalıştırınız. Artık program kullanıma hazır. 
+ 
  Buton kontrol paneli uygulamasının çalışma anındaki uygulama örneklerini incelemek için proje dosyaları içerisinden "RunTimeFormImages" dosyasına giriniz. Uygulama görselleri üç aşamadan oluşuyor: 
   Aşama 1: JButton1 (Simge1) butonuna tıklanıyor, simge ve buton "aktif" oluyor ve ilk GraphQL isteği gerçekleştiriliyor. 
   Aşama 2: Bu aşamada sırasıyla Jbutton6 (Simge6), JButton11 (Simge11) ve JButton16 (Simge16) butonlarına tıklanıyor ve bu butonlarda ilk aşamada olduğu gibi "aktif" oluyor ve GraphQL işlemleri gerçekleşiyor. 
