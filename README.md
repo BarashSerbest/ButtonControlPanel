@@ -6,11 +6,9 @@ Buton kontrol paneli uygulaması nasıl kullanılacak?
  
  Buton kontrol paneli uygulamasının çalışma anındaki uygulama örneklerini incelemek için proje dosyaları içerisinden "RunTimeFormImages" dosyasına giriniz. Uygulama görselleri üç aşamadan oluşuyor: 
  
-  Aşama 1: JButton1 (Simge1) butonuna tıklanıyor, simge ve buton "aktif" oluyor ve ilk GraphQL isteği gerçekleştiriliyor. 
-  
-  Aşama 2: Bu aşamada sırasıyla Jbutton6 (Simge6), JButton11 (Simge11) ve JButton16 (Simge16) butonlarına tıklanıyor ve bu butonlarda ilk aşamada olduğu gibi "aktif" oluyor ve GraphQL işlemleri gerçekleşiyor. 
-  
-  Aşama 3: Bu aşamada dahya önce tıklanam JButton6 (Simge6) butonuna tekrar tıklanıyor, JButton6 butonuna tekrar tıklandığı için JButton6 butonu hariç diğer bütün tıklanan butonlar "pasif" hale geliyor ve JButton6 butonu için GraphQL işlemleri tekrar gerçekleşiyor.
+  1. Aşama: JButton1 (Simge1) butonuna tıklanıyor, simge ve buton "aktif" oluyor ve ilk GraphQL isteği gerçekleştiriliyor.  
+  2. Aşama: Bu aşamada sırasıyla Jbutton6 (Simge6), JButton11 (Simge11) ve JButton16 (Simge16) butonlarına tıklanıyor ve bu butonlarda ilk aşamada olduğu gibi "aktif" oluyor ve GraphQL işlemleri gerçekleşiyor.   
+  3. Aşama: Bu aşamada dahya önce tıklanam JButton6 (Simge6) butonuna tekrar tıklanıyor, JButton6 butonuna tekrar tıklandığı için JButton6 butonu hariç diğer bütün tıklanan butonlar "pasif" hale geliyor ve JButton6 butonu için GraphQL işlemleri tekrar gerçekleşiyor.
 
 GraphQL Nedir?
 
